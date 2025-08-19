@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background: black;
+  color: white;
+  display:  flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar ul{
+  justify-content: space-between;
+
+}
+.navbar ul li{
+  list-style: none;
+}

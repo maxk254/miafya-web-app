@@ -4,7 +4,8 @@ import Navbar from './assets/Navbar'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
-import Signup from './pages/SignUp'
+import Signup from './pages/Signup'
+
 import { Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contacts" element={<Contact />} />
         <Route path="/about" element={<About/>} />
-        <Route path="/signup" element={<SignUp />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </div>
   );

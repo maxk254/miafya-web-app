@@ -5,6 +5,6 @@ import "./App.css"; // global styles (you can change/remove later)
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  
+
     <App />
 );

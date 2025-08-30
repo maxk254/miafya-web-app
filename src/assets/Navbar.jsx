@@ -1,24 +1,32 @@
-import React from 'react'
-import logo from '../assets/logo.png'
+import React, { useState } from 'react'
+import miafyalogo from "../assets/miafyalogo.png";
 import { NavLink, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
   const navigate = useNavigate();
 
+    const [showMenu, setShowMenu] =useState(false)
+    const [token, setToken] = useState(false)
 
   return (
     <div className="navbar">
-      <img onClick={()=> navigate('/')} src={logo} alt="miafya" width="100px" className='img' />
+      <img
+        onClick={() => navigate("/")}
+        src={miafyalogo}
+        alt="miafya"
+        width="100px"
+        className="img"
+      />
       <ul>
         <NavLink to="/">
           <li>HOME</li>
         </NavLink>
-        <NavLink to="/healthservices">
-          <li>HEALTH SERVICES</li>
+        <NavLink to="/healthprofesionals">
+          <li>HEALTH PROFESSIONALS</li>
         </NavLink>
-        <NavLink to="/about">
-          <li>ABOUT US</li>
+        <NavLink to="/healthfacilities">
+          <li>HEALTH FACILITIES</li>
         </NavLink>
         <NavLink to="/contact">
           <li>CONTACTS</li>
@@ -26,11 +34,16 @@ const Navbar = () => {
         <NavLink to="/login">
           <li>LOGIN</li>
         </NavLink>
-        <NavLink to="/signup">
-          <li>SIGNUP</li>
-        </NavLink>
       </ul>
-      <button onClick={()=> navigate('/signup')}>Get started</button>
+      <div>
+        {token ? (
+          <div>
+            <img src="" alt="" />
+          </div>
+        ) : (
+          <button onClick={() => navigate("/login")}>Get started</button>
+        )}
+      </div>
     </div>
   );
 }

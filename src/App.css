@@ -1,13 +1,10 @@
-
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
 *{
   font-family: "Outfit", sans-serif;
-  /* margin: 0; */
-  font-family: Arial, sans-serif;
-  /* padding: 0; */
-  box-sizing: border-box;
-  /* background-image: url(https://plus.unsplash.com/premium_photo-1661767897334-bbfbdfdc4d1a?); */
+  
+  left:0;
+  right:0;
 }
   ::-webkit-scrollbar{
     @apply hidden
@@ -23,117 +20,3 @@ a{
   text-decoration: none;
   color: inherit;
 }
-.navbar{
-  width: 100%;
-  justify-content: space-between;
-  display:  flex;
-  align-items: center;
-  padding: 15px 8%;
-  position: sticky;
-}
-.navbar ul{
-  padding: 10px 30px;
-  border-radius: 30px;
-  box-shadow: 0 0 30px 0 rgb(0,0,0,0.1);
-}
-.navbar ul li{
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 0 10px;
-  color: hsl(180, 80%, 46%);
-  font-size: 15px;
-  font-weight: bold;
-}
-.navbar button{
-  background-color: hsl(180, 80%, 53%);
-  color: white;
-  padding: 8px;
-  border: 0;
-  outline: 0;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 15px;
-}
-.navbar button:hover{
-  background-color: hsl(165, 76%, 57%)
-}
-
-.homeInfo{
-  display:  flex;
-  font-size: 2em;
-  justify-content: center;
-  width: 70%;
-  color: rgb(19, 241, 223);
-  padding: 30px;
-  
-}
-.contact{
-  color: rgb(19, 241, 223);
-  font-size: 2.25rem;
-  display: flex;
-  
-}
-
-.Contact-container{
-padding: 40px;
-  line-height: 2.5;
-  background-color:rgb(159, 237, 245) ;
-  min-width: 50px;
-  margin-bottom: 50px;
-  padding-right: 20px;
-}
-.img{
-  cursor: pointer;
-}
-.herosection{
-  height: 70vh;
-  width: 80%;
-  border-radius: 20px;
-  background:hsl(180, 79%, 66%);
-  padding: 30px;
-  margin-bottom: 20px;
-}
-
-.herosection h2{
-  color: white;
-  font-size: 30px;
-  width: 80%;
-  font-weight: bold;
-}
-
-.herosection p{
-  color:white;
-  width: 60%;
-  font-size:17px ;
-  margin-top: 50px;
-
-}
-.herosection img{
-  border: none;
-  border-radius: 15px;
-  display: block;
-  float: right;
-  height:60vh;
-  width: 350px;
-  margin-bottom: 50px;
-  color: hsl(180, 79%, 66%);
-}
-.herosection button{
-  background-color: white;
-  color: black;
-  padding: 12px 20px;
-  border: 0;
-  outline: 0;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 15px;
-  margin-top: 50px;
-}
-.herosection button:hover{
-  cursor: pointer;
-  background-color: hsl(165, 76%, 57%);
-}
-h6{
-  margin-top: 20px;
-  gap: 10px;
-} 

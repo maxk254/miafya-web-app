@@ -15,10 +15,9 @@ const Facilities = () => {
         {facilittiesData.slice(0, 10).map((item, index) => (
           <div
             className="border border-teal-100 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500"
-            key={index}
-          >
+            key={index}>
             <img
-              className="bg-blue-50 w-full h-50"
+              className="bg-blue-50 w-full h-40"
               src={item.image}
               alt="dockimage"
             />

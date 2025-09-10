@@ -1,30 +1,41 @@
 import React from 'react'
 import {useNavigate } from "react-router-dom";
-import dockp from "../../assets/dockp.png";
+import herogroup from "../../assets/herogroup.png";
 import hero from "../../assets/hero.png";
 const HeroSec = () => {
 
   const navigate = useNavigate();
   return (
-    <div className="herosection">
-      <div>
-        <img src={hero} alt="DoctorPic" />
-        <h2>
-          The best platform connecting you to qualified health professional to
-          help you address your health needs
-        </h2>
-        <p>
-          Need quickly response about you condition to consult a doctor feel
-          free to explore various doctors and talk to them to assist you
+    <div className="flex flex-col md:flex-row flex-wrap bg-primary rounded-lg px-6 md:px-10 lg:px-20">
+      {/* .....left side........ */}
+      <div className="md:w-1/2 flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px]">
+        <p className="text-3xl md:text-4xl lg:text-5xl text-white font-semibold leading-tight md:leading-tight lg:leading-tight">
+          Book Appointment <br /> With Trusted Doctors
         </p>
+        <div className="flex flex-col md:flex-row items-center gap-3px text-white  text-sm font-light">
+          <img className="w-20" src={herogroup} alt="groupdoc" />
+          <p className="text-white ">
+            Simply browse through our extensive list of trusted doctors,
+            <br className="hidden sm:block" /> schedule your appointment
+            hassle-free.
+          </p>
+        </div>
+        <a className="flex items-center gap-2 bg-white px-8 py-3 rounded-full tex-gray-900 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300"href="#speciality">Book Appointment</a>
+        <h6 className='text-xl mt-5'>
+          <span>24/7 available |</span>
+          <span>200+ Health profesionals |</span>
+          <span>100k+ patients</span>
+        </h6>
       </div>
 
-      <button onClick={() => navigate("/topdoctors")}>wanna speak to a doctor</button>
-      <h6>
-        <span>24/7 available |</span>
-        <span>200+ Health profesionals |</span>
-        <span>100k+ patients</span>
-      </h6>
+      {/* ......Right side............ */}
+      <div className="md:w-1/2 relative">
+        <img
+          className="w-full md:absolute bottom-0 h-140 rounded-lg"
+          src={hero}
+          alt="hero img"
+        />
+      </div>
     </div>
   );
 }

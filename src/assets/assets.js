@@ -23,6 +23,12 @@ import dermal from "../assets/dermal.png";
 import cardio from "../assets/cardio.png";
 import pharmacy from "../assets/pharmacy.png";
 import rehab from "../assets/rehab.png";
+import genphy from "../assets/genphy.png";
+import gyn from "../assets/gyn.png";
+import pedst from "../assets/pedst.png";
+import nutri from "../assets/nutri.png";
+import pharm from "../assets/pharm.png";
+import hero from "../assets/hero.png";
 export const servicesData = [
   {
     image: consult,
@@ -59,23 +65,23 @@ export const doctors = [
     about:
       "Dr Kamau has a strong commitment to deliver quality and comprehesive care to children",
     fees: 2000,
-    adress: {
-      phoneNumer: +254789678234,
+    address: {
+      phoneNumber: +254789678234,
       Email: "kamauped@gmail.com",
     },
   },
   {
     id: "doc2",
     name: "Dr Esther",
-    image: esther,
+    image: hero,
     Speciality: "Pedetrician",
     degree: "MBCHB,MMPD",
     experience: "3 years",
     about:
       "Dr Esther has a strong commitment to deliver quality and comprehesive care to children",
     fees: 2000,
-    adress: {
-      phoneNumer: +254789678234,
+    address: {
+      phoneNumber: +254789678234,
       Email: "estherped@gmail.com",
     },
   },
@@ -89,8 +95,8 @@ export const doctors = [
     about:
       "Dr Davis has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 2000,
-    adress: {
-      phoneNumer: +254784560234,
+    address: {
+      phoneNumber: +254784560234,
       Email: "davisdoc@gmail.com",
     },
   },
@@ -104,8 +110,8 @@ export const doctors = [
     about:
       "Dr Aisha has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 3000,
-    adress: {
-      phoneNumer: +2544569100234,
+    address: {
+      phoneNumber: +25744569234,
       Email: "aishaoncologist@gmail.com",
     },
   },
@@ -119,8 +125,8 @@ export const doctors = [
     about:
       "Dr Muthoni has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 3000,
-    adress: {
-      phoneNumer: +25789089134,
+    address: {
+      phoneNumber: +25789089134,
       Email: "muthoniobsgyn@gmail.com",
     },
   },
@@ -134,8 +140,8 @@ export const doctors = [
     about:
       "Dr Moraa has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 2000,
-    adress: {
-      phoneNumer: +25786889134,
+    address: {
+      phoneNumber: +25786889134,
       Email: "moraapeds@gmail.com",
     },
   },
@@ -149,8 +155,8 @@ export const doctors = [
     about:
       "Dr Mwangi has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 4000,
-    adress: {
-      phoneNumer: +25776089134,
+    address: {
+      phoneNumber: +25776089134,
       Email: "mwangi@gmail.com",
     },
   },
@@ -164,8 +170,8 @@ export const doctors = [
     about:
       "Dr Kigo has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 2000,
-    adress: {
-      phoneNumer: +25703208913,
+    address: {
+      phoneNumber: +25703208913,
       Email: "mwangi@gmail.com",
     },
   },
@@ -179,8 +185,8 @@ export const doctors = [
     about:
       "Dr maksi has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 2000,
-    adress: {
-      phoneNumer: +25703208913,
+    address: {
+      phoneNumber: +25703208913,
       Email: "makasi@gmail.com",
     },
   },
@@ -194,25 +200,48 @@ export const doctors = [
     about:
       "Mary Wambui has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
     fees: 2000,
-    adress: {
-      phoneNumer: +25703208913,
+    address: {
+      phoneNumber: +25703208913,
       Email: "marywambui@gmail.com",
     },
   },
+  // {
+  //   id: "doc11",
+  //   name: "Atieno Mercy",
+  //   image: mwangi ,
+  //   Speciality: "Physiotherapist",
+  //   degree: "BPHSTT",
+  //   experience: "4 years",
+  //   about:
+  //     "Onyango Peter has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
+  //   fees: 2000,
+  //   address: {
+  //     phoneNumber: +25708648913,
+  //     Email: "atieno@gmail.com",
+  //   },
+  // },
+];
+
+export const SpecialityData = [
   {
-    id: "doc11",
-    name: "Atieno Mercy",
-    image: mwangi ,
-    Speciality: "Physiotherapist",
-    degree: "BPHSTT",
-    experience: "4 years",
-    about:
-      "Onyango Peter has a strong commitment to deliver quality and comprehesive care with 5 years of performing surgeries and restoring smiles to patients faces",
-    fees: 2000,
-    adress: {
-      phoneNumer: +25708648913,
-      Email: "atieno@gmail.com",
-    },
+    Speciality: "General physician",
+    image: genphy,
+  },
+  {
+    Speciality: "Gynecologist",
+    image: gyn,
+  },
+  {
+    Speciality: "Pediatrician",
+    image: pedst,
+  },
+  {
+    Speciality: "nutritionist",
+    image: nutri,
+  },
+  {
+    Speciality: "pharmacist",
+    image: pharm,
   },
 ];
 

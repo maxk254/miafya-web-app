@@ -1,8 +1,11 @@
 import React from 'react'
+import Facilities from '../assets/Components/Facilities'
 
 const Healthfacilities = () => {
   return (
-    <div>Healthfacilities</div>
+    <div>
+      <Facilities/>
+    </div>
   )
 }
 

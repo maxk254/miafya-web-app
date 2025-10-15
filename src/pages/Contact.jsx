@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const Contact = () => {
   const navigate = useNavigate;
   return (
-    <div className="border border-teal-100 rounded-2xl w-full m-0">
+    <div className="border border-teal-100 rounded-2xl w-full m-0 bg-teal-200">
       <div className="text-center w-full text-gray-900 underline mt-2">
         <p>
           CONTACT <span className="text-gray-950 font-semibold">US</span>
@@ -13,16 +13,16 @@ const Contact = () => {
 
       <div className="my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm">
         <img
-          className="w-full md:max-w-[360px] h-70"
+          className="w-full md:max-w-[360px] rounded-b-2xl"
           src={groupdoc}
           alt="groupdoc"
         />
-        <div className="flex flex-col justify-center items-start gap-4 w-full md:w-auto">
+        <div className="flex flex-col justify-center items-start gap-4 w-full md:w-auto sm:items-center">
           <p className="font-semibold text-lg text-gray-800">Our Office</p>
-          <p className="text-gray-600">
+          <p className="text-gray-900">
             Westside Tower <br /> Westlands Nairobi
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-900">
             Tel:+2547765598 <br />
             Email: miafya@info.ac.ke
           </p>
@@ -30,7 +30,7 @@ const Contact = () => {
             {" "}
             Careers At Myafya
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-900">
             Learn more about our team and job openings
           </p>
           <a 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./assets/Navbar";
+// import Navbar from "./assets/Navbar";
 import Home from "./pages/Home";
 import Healthprofessionals from "./pages/Healthprofessionals";
 import {Route,createBrowserRouter, createRoutesFromElements, RouterProvider} from "react-router-dom";

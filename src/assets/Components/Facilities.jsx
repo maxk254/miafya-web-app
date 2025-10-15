@@ -19,7 +19,7 @@ const Facilities = () => {
             <img
               className="bg-blue-50 w-full h-40"
               src={item.image}
-              alt="dockimage"
+              alt="facilityimage"
             />
             <div className="p-4">
               <div className="flex items-center gap-2 text-sm text-center text-green-500">
@@ -29,6 +29,7 @@ const Facilities = () => {
               <p className="text-gray-900 text-lg font-medium">{item.name}</p>
               <p className="text-gray-700 text-sm">{item.Speciality}</p>
               <p className="text-gray-700 text-sm">{item.KeyServices}</p>
+              <p className='text-gray-700 text-sm'>{item.contact}</p>
             </div>
           </div>
         ))}

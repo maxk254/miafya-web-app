@@ -10,7 +10,7 @@ const About = () => {
       </div>
       {/* image on the left side */}
       <div className="my-10 flex flex-col md:flex-row gap-12">
-        <img className="w-full md:max-w-[360px]" src={atioeno} alt="doc" />
+        <img className="w-full md:max-w-[360px] bg-teal-200 rounded-xl" src={atioeno} alt="doc" />
 
         {/* About text on the right side */}
         <div className="flex flex-col justify-center gap-6 md:w-2/3 text-md text-gray-700">

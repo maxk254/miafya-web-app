@@ -11,7 +11,7 @@ const Myappointments = () => {
           <div className='grid grid-cols-[1fr_2fr] gap-4 sm:flex sm:gap-6 py-2 border-b' key={index}>
             <div>
               <img className='w-40 bg-teal-50 border border-teal-50 rounded' src={item.image} alt="doc"/>
-            </div>
+            </div> 
             <div className='flex-1 text-md text-zinc-900'>
               <p className='text-green-500 font-semibold'>{item.name}</p>
               <p className='text-red-500 font-semibold'>{item.Speciality}</p>

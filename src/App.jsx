@@ -12,6 +12,8 @@ import Myprofile from "./pages/Myprofile";
 import Myappointments from "./pages/Myappointments";
 import About from "./pages/About";
 import Appointment from "./pages/Appointment";
+import FacilityReg from "./pages/FacilityReg";
+import DocReg from "./pages/DocReg";
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
@@ -25,7 +27,12 @@ const App = () => {
         <Route path="Myappointment" element={<Myappointments />} />
         <Route path="appointment/:docId" element={<Appointment />} />
         <Route path="about" element={<About />} />
-        <Route path="healthprofesionals/:speciality"element={<Healthprofessionals />}/>
+        <Route path="facilityReg" element={<FacilityReg />} />
+        <Route path="docReg" element={<DocReg />} />
+        <Route
+          path="healthprofesionals/:speciality"
+          element={<Healthprofessionals />}
+        />
       </Route>
     )
   );

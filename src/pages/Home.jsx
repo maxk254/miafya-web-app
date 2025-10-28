@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <div>
       <HeroSec />
-      <div className="flex flex-col items-center  gap-10  bg-white px-8 py-3 rounded-full text-gray-900 text-sm m-auto md:m-0  ">
-        <Proffesionalbtn />
+      <div className="flex flex-col items-center  gap-10  bg-white px-8 py-3 rounded-full text-gray-900 text-sm m-auto md:m-0 cursor-pointer">
+        <Proffesionalbtn/>
         <FacilityButton />
       </div>
       <Topdoctors />

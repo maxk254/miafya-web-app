@@ -9,17 +9,17 @@ const DocReg = () => {
     event.preventDefualt()
   }
   return (
-    <div>
+    <div className="scroll-auto">
       <h1 className="text-primary text-3xl">
         Are a passionate health professional who wants to connect to more
         patients and offer quality health services?
       </h1>
       <br />
       <h3 className="text-2xl mb-2.5">Register to join our platform</h3>
-      <form className="min-h-[80vh] w-5" action="submit">
+      <form className="min-h-[80vh] flex items-center" action="submit">
         <div className='flex flex-col gap-5 m-auto  p-8 min-w[340px] sm:min-w-95 border border-teal-100 rounded-xl text-gray-600 text-sm shadow-lg  bg-teal-50"'>
           <div className="w-full">
-            <p>Full Name</p>
+            <p>Full Name</p> <span>(As they appear on your ID)</span>
             <input
               className="border border-zinc-500 rounded-2xl w-full p-2 mt-1"
               type="text"

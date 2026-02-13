@@ -3,31 +3,31 @@ import React from 'react'
 
 const Footer = () => {
   return (
-      <footer className="flex flex-col sm:col-auto bg-slate-50  items-center justify-around w-full py-16 text-sm text-gray-800/70 mt-10  border-blue-200 m-0 rounded-3xl">
-        <div className="flex items-center gap-8">
+      <footer className="flex flex-col sm:col-auto bg-black  items-center justify-around  w-full py-0 m-0 text-sm text-white mt-10   rounded-xl">
+        <div className="flex items-center gap-8 py-16">
           <a
             href="/"
-            className="font-medium text-gray-900 hover:text-black transition-all">
+            className="font-medium text-white hover:text-black transition-all">
             Home
           </a>
           <a
             href="/about"
-            className="font-medium text-gray-900 hover:text-black transition-all">
+            className="font-medium text-white hover:text-black transition-all">
             About
           </a>
           <a
             href="#speciality"
-            className="font-medium text-gray-900 hover:text-black transition-all">
+            className="font-medium text-white hover:text-black transition-all">
             Services
           </a>
           <a
             href="/contact"
-            className="font-medium text-gray-900 hover:text-black transition-all">
+            className="font-medium text-white hover:text-black transition-all">
             Contact
           </a>
           <a
             href="/contact"
-            className="font-medium text-gray-900 hover:text-black transition-all">
+            className="font-medium text-white hover:text-black transition-all">
             Help
           </a>
         </div>

@@ -20,7 +20,7 @@ const HeroSec = () => {
             hassle-free.
           </p>
         </div>
-        <a className="flex items-center gap-2 bg-white px-8 py-3 rounded-full tex-gray-900 text-sm m-auto md:m-0 hover:scale-105 transition-all duration-300"href="#speciality">Book Appointment</a>
+        <a className="flex items-center gap-2 bg-amber-400 px-8 py-3 rounded-full tex-gray-900  text-xl m-auto md:m-0 hover:scale-105 transition-all duration-300"href="#speciality">Book Appointment</a>
         <h6 className='text-xl mt-5'>
           <span>24/7 available |</span>
           <span>200+ Health profesionals |</span>

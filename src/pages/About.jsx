@@ -4,16 +4,14 @@ const About = () => {
   return (
     <div>
       <div className="text-center text-2xl pt-10 text-gray-700 mb-4">
-        <p className="">
-          ABOUT <span className="text-gray-900 font-medium">US</span>
-        </p>
+        <p className="text-teal-700">ABOUT <span className="text-teal-700 font-medium">US</span></p>
       </div>
       {/* image on the left side */}
       <div className="my-10 flex flex-col md:flex-row gap-12">
         <img className="w-full md:max-w-[360px] bg-teal-200 rounded-xl" src={atioeno} alt="doc" />
 
         {/* About text on the right side */}
-        <div className="flex flex-col justify-center gap-6 md:w-2/3 text-md text-gray-700">
+        <div className="flex flex-col justify-center gap-6 md:w-2/3 text-xl text-gray-700">
           <p>
             Welcome to miafya, your trusted partner in managing your healthcare
             needs conveniently and efficiently. At miafya, we understand the
@@ -27,7 +25,7 @@ const About = () => {
             service. Whether you're booking your first appointment or managing
             ongoing care, miafya is here to support you every step of the way.
           </p>
-          <b className="text-black">Our Vision</b>
+          <b className="text-teal-700">Our Vision</b>
           <p>
             Our vision at miafya is to create a seamless healthcare experience
             for every user. We aim to bridge the gap between patients and
@@ -36,9 +34,9 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="text-xl my-4">
+      <div className="text-xl my-4 text-teal-700">
         <p>
-          WHY <span className="text-gray-900 font-semibold">CHOOSE US</span>
+          WHY <span className="text- font-semiteal-700 bold">CHOOSE US</span>
         </p>
       </div>
       <div className="flex flex-col md:flex-row mb-10 gap-4">

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const Contact = () => {
   const navigate = useNavigate;
   return (
-    <div className="border border-teal-100 rounded-2xl w-full m-0 bg-teal-200">
+    <div className="border border-teal-100 rounded-2xl w-full m-0 bg-teal-50">
       <div className="text-center w-full text-gray-900 underline mt-2">
         <p>
           CONTACT <span className="text-gray-950 font-semibold">US</span>

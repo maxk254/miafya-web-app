@@ -21,7 +21,9 @@ const Navbar = () => {
       />
       <ul className="hidden md:flex items-start gap-5 font-medium bg-white">
         <NavLink to="/">
-          <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">HOME</li>
+          <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">
+            HOME
+          </li>
         </NavLink>
         <NavLink to="/healthprofesionals">
           <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">
@@ -34,10 +36,14 @@ const Navbar = () => {
           </li>
         </NavLink>
         <NavLink to="/login">
-          <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">LOGIN</li>
+          <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">
+            LOGIN
+          </li>
         </NavLink>
         <NavLink to="/about">
-          <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">ABOUT US</li>
+          <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">
+            ABOUT US
+          </li>
         </NavLink>
       </ul>
       <div>
@@ -60,18 +66,18 @@ const Navbar = () => {
                   My Appointment
                 </p>
                 <p
-                  onClick={() => setToken(true)}
+                  onClick={() => setToken(false)}
                   className="hover:text-black cursor-pointer"
                 >
-                  Log-out
+                  Log-in
                 </p>
               </div>
             </div>
           </div>
         ) : (
           <button
-            className="bg-primary text-white px-3 py-3 rounded-full font-light hidden md:block cursor-pointer"
-            onClick={() => navigate("/login")}
+            className="bg-primary text-white px-2 py-2 rounded-2xl font-light hidden md:block cursor-pointer"
+            onClick={() => navigate("/authonboard")}
           >
             Get started
           </button>

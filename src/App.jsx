@@ -21,18 +21,15 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="healthprofesionals" element={<Healthprofessionals />} />
         <Route path="healthfacilities" element={<Healthfacilities />} />
-        <Route path="login" element={<Login />} />
+        {/* <Route path="login" element={<Login />} /> */}
         <Route path="contact" element={<Contact />}></Route>
         <Route path="Myprofile" element={<Myprofile />} />
         <Route path="Myappointment" element={<Myappointments />} />
         <Route path="appointment/:docId" element={<Appointment />} />
         <Route path="about" element={<About />} />
-        <Route path="facilityReg" element={<FacilityReg />} />
-        <Route path="docReg" element={<DocReg />} />
-        <Route
-          path="healthprofesionals/:speciality"
-          element={<Healthprofessionals />}
-        />
+        {/* <Route path="facilityReg" element={<FacilityReg />} />
+        <Route path="docReg" element={<DocReg />} /> */}
+        <Route path="healthprofesionals/:speciality"element={<Healthprofessionals />}/>
       </Route>
     )
   );

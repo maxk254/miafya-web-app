@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-const Login = () => {
+const UserSignup = () => {
   const [state, setState] = useState("sign Up");
 
   const [email,setEmail] = useState('')
@@ -81,4 +81,4 @@ const Login = () => {
   );
 }
 
-export default Login
+export default UserSignup;

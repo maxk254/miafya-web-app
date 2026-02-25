@@ -5,12 +5,14 @@ import { Outlet } from 'react-router-dom';
 
 const RootLayout = () => {
   return (
-    <div>
-      <Navbar/>
-      <Outlet/>
-      <Footer/>
-    </div>
-  )
+    <>
+      <div className="">
+        <Navbar />
+        <Outlet />
+      </div>
+      <Footer />
+    </>
+  );
 }
 
 export default RootLayout

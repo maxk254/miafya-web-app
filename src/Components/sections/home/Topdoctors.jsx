@@ -172,3 +172,4 @@ const Topdoctors = () => {
 };
 
 export default Topdoctors;
+// we need to make cards clicable to open professinal full profile

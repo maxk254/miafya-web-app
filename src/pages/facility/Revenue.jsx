@@ -1,0 +1,1 @@
+// payments , and service fees charged by the company

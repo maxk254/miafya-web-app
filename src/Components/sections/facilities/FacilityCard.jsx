@@ -1,0 +1,1 @@
+// card that returns facilities details

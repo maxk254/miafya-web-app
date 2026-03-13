@@ -1,0 +1,1 @@
+// full sidebar, search, my control room

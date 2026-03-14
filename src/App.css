@@ -2,8 +2,9 @@
 @import "tailwindcss";
 *{
   font-family: "Outfit", sans-serif;
-  left:0;
-  right:0;
+  background: 
+  /* left:0; */
+  /* right:0; */
 }
   ::-webkit-scrollbar{
     @apply hidden
@@ -18,4 +19,33 @@
 a{
   text-decoration: none;
   color: inherit;
+}
+* {
+  
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  background-color: #0a1628;
+  min-height: 100vh;
+  color: #e2e8f0;
+}
+/* Smooth scrolling for anchor links like #speciality */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar matching dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #060e1d;
+}
+::-webkit-scrollbar-thumb {
+  background: #14b8a6;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d9488;
 }

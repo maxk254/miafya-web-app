@@ -380,3 +380,4 @@ const Facilities = ({ preview = false }) => {
 };
 
 export default Facilities;
+// to add facility serch by service and location

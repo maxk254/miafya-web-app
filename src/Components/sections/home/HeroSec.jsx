@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import herogroup from "../assets/images/ui/herogroup.png"
+import herogroup from "./assets/images/ui/herogroup.png"
 import hero from "../assets/images/ui/hero.png";
 
 const HeroSec = () => {

@@ -11,6 +11,7 @@ import Contact from "./pages/public/Contact";
 import Myprofile from "./pages/patients/Myprofile";
 import Myappointments from "./pages/patients/Myappointments";
 import About from "./pages/public/About";
+import Signup from "./pages/auth/Signup";
 import Login from "./pages/auth/Login";
 import Facilities from "./Components/sections/facilities/Facilities";
 // import Appointment from "./pages/Appointment"; TO REPLACE THIS WITH MYAPPINTMENT FILE ON THE PATIENT FOLDER
@@ -24,6 +25,7 @@ const App = () => {
         {/* <Route path="healthfacilities" element={<Healthfacilities />} /> */}
         <Route path="authonboard" element={<AuthOnboard />} />
         <Route path="login" element={<Login />} />
+        <Route path="signup" element={<Signup />} />
         <Route path="contact" element={<Contact />}></Route>
         <Route path="facilities" element={<Facilities/>}></Route>
         <Route path="Myprofile" element={<Myprofile />} />

@@ -1,5 +1,5 @@
 import React from "react";
-import atioeno from "../assets/images/doctors/atioeno.png"
+import atioeno from "../../assets/images/doctors/atioeno.png"
 
 const About = () => {
   const values = [

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// import miafyalogo from "../assets/miafyalogo.png";
+import miafyalogo from "../../assets/images/ui/miafyalogo.png";
 
 const roles = [
   {

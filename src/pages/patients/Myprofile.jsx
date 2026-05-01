@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logged from "@/assets/images/avatar/logged.png";
+import logged from "../../assets/images/avatars/logged.png";
 const Myprofile = () => {
   const [userData, setUserData] = useState({
     name: "Maxwel Geofrey",

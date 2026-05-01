@@ -1,5 +1,5 @@
 import React from 'react'
-import groupdoc from "../assets/groupdoc.png";
+import groupdoc from "../../assets/images/doctors/groupdoc.png";
 import { useNavigate } from 'react-router-dom';
 const Contact = () => {
   const navigate = useNavigate;

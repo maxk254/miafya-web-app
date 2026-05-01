@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../assets/images/ui/banner.png";
+import banner from "../../../assets/images/ui/banner.png";
 import { useNavigate } from "react-router-dom";
 
 const Banner = () => {

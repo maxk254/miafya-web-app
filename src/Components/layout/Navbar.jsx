@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import miafyalogo from "../assets/miafyalogo.png";
+import miafyalogo from "../../assets/images/ui/miafyalogo.png";
 import { NavLink, useNavigate } from "react-router-dom";
-import logged from "../assets/logged.png";
-import dropdown from "../assets/dropdown.png";
-import menu from "../assets/menu.png";
+import logged from "../../assets/images/avatars/logged.png";
+import dropdown from "../../assets/images/ui/dropdown.png";
+import menu from "../../assets/images/ui/menu.png";
 const Navbar = () => {
   const navigate = useNavigate();
 
@@ -25,12 +25,12 @@ const Navbar = () => {
             HOME
           </li>
         </NavLink>
-        <NavLink to="/healthprofesionals">
+        <NavLink to="/Healthprofesionals">
           <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">
             HEALTH PROFESSIONALS
           </li>
         </NavLink>
-        <NavLink to="/healthfacilities">
+        <NavLink to="/facilities">
           <li className="py-1 hover:bg-blue-100 rounded-full px-3 text-teal-700">
             HEALTH FACILITIES
           </li>

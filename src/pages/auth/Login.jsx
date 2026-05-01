@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-// import miafyalogo from "../assets/miafyalogo.png";
+import miafyalogo from "../../assets/images/ui/miafyalogo.png";
 
 const Login = () => {
   const navigate = useNavigate();

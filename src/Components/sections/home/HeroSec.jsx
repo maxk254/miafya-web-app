@@ -39,7 +39,7 @@ const HeroSec = () => {
 
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight">
-            Your Health,{" "}
+            Your Health,
             <span className="relative">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-400">
                 Connected.
